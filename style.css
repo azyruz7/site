@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'old' ;
+    src: url('fontes/Olondon_.otf') format('opentype');
+}
+
+body{
+    
+    background-image: linear-gradient(to right, white, grey);
+}
+
+p{
+    font-family: 'Nanum Gothic Coding';
+    font-size: 1.25em;
+}
+
+.destaque{
+    color: red;
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.622);
+    width: 600px;
+    padding: 100px;
+    border-radius: 15px;
+
+}
+div:hover{
+    background-color: rgba(247, 92, 92, 0.868);
+    width: 600px;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.destaque::before{
+    content:'→';
+    color: black;
+}
+
+.destaque::after{
+    content:'←';
+    color: black;
+}
+
+a{
+    align-items: center;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+text-decoration: none;
+}
+
+ul#ref{
+    align-items: center;
+    text-shadow: red 2px 2px 2px;
+    font-family: 'Lora', serif;
+    padding-right: 10px;
+    font-size: 30px;
+    display: flex;
+}
+
+ul{
+    text-decoration: none;
+}
+
+header{
+    border-radius: 20px;
+    text-align: left;
+    background-image: url(imagens/teste.jpg);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    background-color: red;
+}
+h1{
+    font-size: 2em;
+    font-family: "old";
+    color: #ff0400;
+    
+}
+
+h2{
+    font-size: 1.75em;
+    font-family: "Times New Roman", Times, serif;
+    color: #ff3963;
+}
